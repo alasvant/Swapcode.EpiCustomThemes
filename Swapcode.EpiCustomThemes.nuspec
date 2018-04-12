@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Swapcode.EpiCustomThemes</id>
+    <version>1.0.0</version>
+    <authors>Antti Alasvuo</authors>
+    <owners>Antti Alasvuo</owners>
+    <licenseUrl>https://github.com/alasvant</licenseUrl>
+    <projectUrl>https://github.com/alasvant</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains sample custom theme for Episerver admin view.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Episerver Theme</tags>
+  </metadata>
+  <files>
+	<file src="SCRefresh\**" exclude="SCRefresh\node_modules\**;**\package-lock.json;**\tasks.json" target="content\App_Themes\SCRefresh" />
+  </files>
+</package>
