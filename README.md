@@ -26,3 +26,7 @@ Please do note that I do not own any copyrights to the content, it is derived fr
 The source folder [Default](https://github.com/alasvant/Swapcode.EpiCustomThemes/tree/master/Default) contains the Episerver original content.
 
 The modified icons are taken from [Find Icons](https://findicons.com/) and only free and no license link required icons were used.
+
+# Creating NuGet package
+Increase the version number in nuspec file and the run command:
+`nuget pack Swapcode.EpiCustomThemes.nuspec`
