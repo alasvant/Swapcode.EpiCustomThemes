@@ -20,3 +20,9 @@ The package does no modifications so you need to manually change your Episerver 
 Locate in web.config your episerver applicationSettings element and add attribute (or edit existing):
 `uiTheme="SCRefresh"`
 This will make Episerver use this custom theme.
+
+# Copyrights etc
+Please do note that I do not own any copyrights to the content, it is derived from Episerver content.
+The source folder [Default](https://github.com/alasvant/Swapcode.EpiCustomThemes/tree/master/Default) contains the Episerver original content.
+
+The modified icons are taken from [Find Icons](https://findicons.com/) and only free and no license link required icons were used.
